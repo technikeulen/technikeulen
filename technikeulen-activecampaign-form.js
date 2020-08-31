@@ -72,7 +72,7 @@ window._load_script = function(url, callback) {
     }
   }
   var _removed = false;
-  var form_to_submit = document.getElementById('form_7_');
+  var form_to_submit = document.getElementById('_form_7_');
   var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
 
   var getUrlParam = function(name) {
@@ -311,7 +311,7 @@ window._load_script = function(url, callback) {
     if (validate_form()) {
       // use this trick to get the submit button & disable it using plain javascript
       document.querySelector('#_form_7_submit').disabled = true;
-            var serialized = _form_serialize(document.getElementById('form_7_'));
+            var serialized = _form_serialize(document.getElementById('_form_7_'));
       var err = form_to_submit.querySelector('._form_error');
       err ? err.parentNode.removeChild(err) : false;
       _load_script('https://alexandersprogis.activehosted.com/proc.php?' + serialized + '&jsonp=true');
