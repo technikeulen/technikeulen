@@ -1,14 +1,14 @@
 {
   "Common": {
     "Actions": {
-      "AddDiscountCode": "Rabatt-Code hinzufÃ¼gen",
+      "AddDiscountCode": "Rabatt-Code hinzufügen",
       "Apply": "Anwenden",
-      "Back": "ZurÃ¼ck",
+      "Back": "Zurück",
       "Cancel": "Abbrechen",
-      "CancelSubscription": "Abonnement kÃ¼ndigen",
-      "ChangeOptions": "Optionen Ã¤ndern",
-      "ChangePassword": "Passwort Ã¤ndern",
-      "ChangePlan": "Abonnementplan Ã¤ndern",
+      "CancelSubscription": "Abonnement kündigen",
+      "ChangeOptions": "Optionen ändern",
+      "ChangePassword": "Passwort ändern",
+      "ChangePlan": "Abonnementplan ändern",
       "Update": "Aktualisieren"
     },
     "Labels": {
@@ -34,9 +34,9 @@
     "AccessDeniedMessage": "Es tut uns leid, nur der Hauptkonto-Kontakt kann auf diese Funktion zugreifen.",
     "DiscountCodeNotFound": "Der Rabattcode wurde nicht gefunden.",
     "Introduction": "Bitte korrigieren Sie die folgenden Fehler:",
-    "currentPasswordMismatch": "Das aktuelle Passwort stimmt nicht Ã¼berein.",
-    "duplicate": "Es existiert bereits ein Konto fÃ¼r diese E-Mail-Adresse",
-    "email": "Das ist keine gÃ¼ltige E-Mail-Adresse",
+    "currentPasswordMismatch": "Das aktuelle Passwort stimmt nicht überein.",
+    "duplicate": "Es existiert bereits ein Konto für diese E-Mail-Adresse",
+    "email": "Das ist keine gültige E-Mail-Adresse",
     "required": "Das ist ein Pflichtfeld"
   },
   "Menu": {
@@ -65,12 +65,12 @@
   },
   "Billing": {
     "Actions": {
-      "Change": "Ã„ndern",
+      "Change": "ändern",
       "RemoveCard": "Karte entfernen"
     },
     "Labels": {
       "EndingIn": "endet auf",
-      "Expires": "LÃ¤uft ab",
+      "Expires": "Läuft ab",
       "NameOnCard": "Name auf der Karte"
     },
     "Text": {
@@ -83,55 +83,55 @@
       "TooExpensive": "Zu teuer",
       "LacksFeatures": "Fehlende Funktionen",
       "TooHardToUse": "Zu schwer zu bedienen",
-      "NoLongerNecessary": "Nicht lÃ¤nger notwendig",
-      "PoorSupport": "Schlechter Kundendienst",
+      "NoLongerNecessary": "Nicht länger notwendig",
+      "PoorSupport": "Schlechter Support",
       "Other": "Anderes",
       "OtherComments": "Weitere Kommentare"
     },
     "Text": {
       "ConfirmationMessage": "Ihr Konto wird geschlossen am",
-      "Introduction": "Bitte erzÃ¤hlen Sie uns, warum Sie gehen:"
+      "Introduction": "Bitte erzählen Sie uns, warum Sie gehen:"
     }
   },
   "ChangePassword": {
     "Labels": {
       "CurrentPassword": "Aktuelles Passwort",
       "NewPassword": "Neues Passwort",
-      "ConfirmPassword": "Passwort bestÃ¤tigen"
+      "ConfirmPassword": "Passwort bestätigen"
     },
     "Text": {
-      "ConfirmationMessage": "Ihr Passwort wurde zurÃ¼ckgesetzt."
+      "ConfirmationMessage": "Ihr Passwort wurde zurückgesetzt."
     }
   },
   "ConfirmPlanChange": {
     "Labels": {
-      "ConfirmPlanChange": "AbonnementplanÃ¤nderung bestÃ¤tigen",
+      "ConfirmPlanChange": "AbonnementplanÃ¤nderung bestätigen",
       "EnterPaymentInformation": "Zahlungsinformation eingeben"
     }
   },
   "Plan": {
     "Actions": {
-      "ChooseOptions": "Optionen auswÃ¤hlen",
-      "ReopenAccount": "Konto wieder erÃ¶ffnen",
-      "Review": "ÃœberprÃ¼fen"
+      "ChooseOptions": "Optionen auswählen",
+      "ReopenAccount": "Konto wieder eröffnen",
+      "Review": "überprüfen"
     },
     "Labels": {
-      "AddOns": "ZuschlÃ¤ge",
-      "Annual": "JÃ¤hrlich",
+      "AddOns": "Zuschläge",
+      "Annual": "Jährlich",
       "BillingCycle": "Abrechnungszeitraum",
       "Monthly": "Monatlich",
       "Name": "Name",
-      "NotApplicable": "Nicht mÃ¶glich",
+      "NotApplicable": "Nicht möglich",
       "PlanQuantity": "Plan-Menge",
       "Price": "Preis",
       "Quantity": "Menge",
       "Setup": "Setup"
     },
     "Text": {
-      "ChangeConfirmation": "Ihr Abonnementplan hat sich geÃ¤ndert.",
-      "DowngradeMessage": "Ihr Abonnementplan wird am Ende des aktuellen Abrechnungszeitraums auf <strong>{{ PlanName }}</strong> zurÃ¼ckgestuft",
+      "ChangeConfirmation": "Ihr Abonnementplan hat sich geändert.",
+      "DowngradeMessage": "Ihr Abonnementplan wird am Ende des aktuellen Abrechnungszeitraums auf <strong>{{ PlanName }}</strong> zurückgestuft",
       "EndingMessage": "Ihr Abonnementplan endet am",
-      "NoCurrentSubscription": "Ihr vorheriges Abonnement ist abgelaufen, bitte wÃ¤hlen Sie einen neuen Abonnementplan."
+      "NoCurrentSubscription": "Ihr vorheriges Abonnement ist abgelaufen, bitte wählen Sie einen neuen Abonnementplan."
     }
   },
   "PlanChangeSummary": {
@@ -145,29 +145,29 @@
   },
   "PlanReopen": {
     "Labels": {
-      "ReopenAccount": "Konto wieder erÃ¶ffnen"
+      "ReopenAccount": "Konto wieder eröffnen"
     },
     "Text": {
-      "ConfirmationMessage": "Ihr Konto wurde wieder erÃ¶ffnet.",
-      "Introduction": "MÃ¶chten Sie Ihr Konto wieder erÃ¶ffnen?"
+      "ConfirmationMessage": "Ihr Konto wurde wieder eröffnet.",
+      "Introduction": "Möchten Sie Ihr Konto wieder eröffnen?"
     }
   },
   "PlanRevert": {
     "Actions": {
-      "CancelRenewal": "VerlÃ¤ngerung kÃ¼ndigen"
+      "CancelRenewal": "Verlängerung kündigen"
     },
     "Text": {
-      "ConfirmationMessage": "Ihr VerlÃ¤ngerungsabonnement wurde gekÃ¼ndigt.",
-      "Introduction": "MÃ¶chten Sie Ihren VerlÃ¤ngerungsplan ({{ RenewalPlanName }}) kÃ¼ndigen und mit Ihrem aktuellen Abonnementplan ({{ CurrentPlanName }}) fortfahren?"
+      "ConfirmationMessage": "Ihr Verlängerungsabonnement wurde gekündigt.",
+      "Introduction": "Möchten Sie Ihren Verlängerungsplan ({{ RenewalPlanName }}) kündigen und mit Ihrem aktuellen Abonnementplan ({{ CurrentPlanName }}) fortfahren?"
     }
   },
   "PlanSelect": {
     "Labels": {
-      "ChangeOptions": "Optionen Ã¤ndern",
+      "ChangeOptions": "Optionen ändern",
       "Current": "Aktuell",
       "DayFreeTrial": "Tage Probezeit",
-      "Select": "AuswÃ¤hlen",
-      "SelectThisPlan": "Diesen Abonnementplan auswÃ¤hlen"
+      "Select": "Auswählen",
+      "SelectThisPlan": "Diesen Abonnementplan auswählen"
     }
   },
   "Profile": {
@@ -181,7 +181,7 @@
   },
   "Team": {
     "Actions": {
-      "AddTeamMember": "Teammitglieder hinzufÃ¼gen",
+      "AddTeamMember": "Teammitglieder hinzufügen",
       "RemoveFromTeam": "Vom Team entfernen",
       "RemoveTeamMember": "Teammitglied entfernen"
     },
@@ -190,7 +190,7 @@
       "TeamMembers": "Teammitglieder"
     },
     "Text": {
-      "AddedConfirmationMessage": "{{ Email }} wurde Ihrem Team hinzugefÃ¼gt.",
+      "AddedConfirmationMessage": "{{ Email }} wurde Ihrem Team hinzugefügt.",
       "RemoveConfirmationMessage": "Sind Sie sicher, dass Sie <strong>{{ Email }}</strong> von Ihrem Team entfernen wollen?",
       "RemovedConfirmationMessage": "{{ Email }} wurde von Ihrem Team entfernt."
     }
