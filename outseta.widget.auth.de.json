@@ -1,0 +1,234 @@
+{
+  "Common": {
+    "Actions": {
+      "Apply": "Anwenden",
+      "Back": "Zurück",
+      "Cancel": "Abbrechen",
+      "Finish": "Abschließen",
+      "Next": "Weiter",
+      "Ok": "OK",
+      "Save": "Speichern"
+    },
+    "Labels": {
+      "After": "nach",
+      "Discount": "Rabatt",
+      "DiscountCode": "Rabattcode",
+      "DiscountsDontApplyToAddOns": "Rabatte gelten nicht für Zuschläge.",
+      "DiscountsDontApplyToAddOnsOrSetupFees": "Rabatte gelten nicht für Zuschläge oder Setup-Gebühren.",
+      "DueAtRenewal": "Fällig bei Erneuerung",
+      "DueNow": "Jetzt fällig",
+      "DueNowAndAtRenewal": "Jetzt fällig und bei Erneuerung",
+      "Email": "E-Mail",
+      "FirstMonth": "erster Monat",
+      "FirstYear": "erstes Jahr",
+      "For": "für",
+      "Forever": "für immer",
+      "Free": "kostenlos",
+      "Month": "Monat",
+      "Months": "Monate",
+      "Off": "aus",
+      "Once": "einmalig",
+      "Password": "Passwort",
+      "Per": "pro",
+      "Save": "spare",
+      "SetupFee": "Setup-Gebühr",
+      "Tax": "Steuer",
+      "Unit": "Einheit",
+      "Year": "Jahr",
+      "Years": "Jahre"
+    },
+    "Text": {
+      "PaymentAuthorization":  "Ich ermächtige {{ CompanyName }}, Anweisungen an das Finanzinstitut zu senden, das meine Karte ausgestellt hat, um Zahlungen von meinem Kartenkonto gemäß den Bestimmungen meiner Vereinbarung mit ihnen entgegenzunehmen."
+    }
+  },
+  "Errors": {
+    "DiscountCodeNotFound": "Der Rabattcode wurde nicht gefunden.",
+    "Introduction": "Bitte korrigieren Sie die folgenden Fehler:",
+    "discountExpired": "Dieser Rabattcode ist abgelaufen.",
+    "discountInactive": "Dieser Rabattcode ist nicht mehr gültig.",
+    "discountNotEligible": "Dieser Rabattcode kann nicht mehr eingelöst werden.",
+    "duplicate": "Es existiert bereits ein Konto fÃ¼r diese E-Mail-Adresse",
+    "email": "Das ist keine gültige E-Mail-Adresse",
+    "required": "Das ist ein Pflichtfeld."
+  },
+  "Account": {
+    "Labels": {
+      "AddressLine1": "Adresse Zeile 1",
+      "AddressLine2": "Adresse Zeile 2",
+      "BillingAddress": "Rechnungsadresse",
+      "City": "Stadt",
+      "CompanyName": "Unternehmen",
+      "Country": "Land",
+      "FirstName": "Vorname",
+      "General": "ALLGEMEIN",
+      "LastName": "Nachname",
+      "MailingAddress": "Versandadresse",
+      "Name": "Name",
+      "PostalCode": "Postleitzahl",
+      "SameAsBillingAddress": "Dieselbe wie Rechnungsadresse",
+      "SameAsMailingAddress": "Dieselbe wie Versandadresse",
+      "StateRegion": "Bundesland"
+    }
+  },
+  "Login": {
+    "Actions": {
+      "CreateAnAccount": "Ein Konto erstellen",
+      "ForgotPassword": "Passwort vergessen?",
+      "Login": "Anmelden"
+    },
+    "Errors": {
+      "InvalidEmailAddressOrPassword": "Ungültige E-Mail-Adresse oder ungültiges Passwort.",
+      "NoAccountFound": "Es wurde kein Konto mit diesen Anmeldedaten gefunden",
+      "WeAreUnableToAuthenticateYouToThisAccountPleaseContactSupport": "Wir sind nicht in der Lage, Sie für dieses Konto zu identifizieren, wenden Sie sich bitte an den Kundendienst.",
+      "WeAreUnableToAuthenticateYouAtThisTimePleaseTryAgainLater": "Wir können Sie im Moment nicht authentifizieren, bitte versuchen Sie es später noch einmal."
+    },
+    "Labels": {
+      "Login": "Anmelden"
+    },
+    "Text": {
+      "DontHaveAnAccountYet": "Sie haben noch kein Konto?",
+      "SignInWithGoogle": "Anmeldung mit Google"
+    }
+  },
+  "LoginOutcomes": {
+    "ActionRequired": {
+      "Labels": {
+        "ActionRequired": "Handlungsbedarf"
+      },
+      "Text": {
+        "Introduction": "Oh-oh! Ihr Konto ist entweder überfällig oder muss aktualisiert werden. <strong>{{ Name }}</strong> muss sich anmelden, um dies in Ordnung zu bringen. Dann können Sie sich wieder anmelden."
+      }
+    },
+    "NoSubscriptionFound": {
+      "Labels": {
+        "NoSubscriptionFound": "Kein Abonnement gefunden"
+      },
+      "Text": {
+        "Introduction": "Keine Abonnements für diesen Benutzer gefunden! Bitte kontaktieren Sie den Kundendienst für Hilfe."
+      }
+    },
+    "SelectAccount": {
+      "Labels": {
+        "SelectAccount": "Konto auswählen"
+      },
+      "Text": {
+        "Introduction": "Bitte wähhlen Sie das Konto aus, mit dem Sie sich anmelden wollen:"
+      }
+    },
+    "UpdatePaymentInformation": {
+      "Labels": {
+        "UpdatePaymentInformation": "Zahlungsinformationen aktualisieren"
+      },
+      "Text": {
+        "Introduction": "Bitte geben Sie die Zahlungsinformationen für Ihr Konto ein."
+      }
+    }
+  },
+  "Password": {
+    "ForgotPassword": {
+      "Actions": {
+        "BackToSignIn": "Zurück zur Anmledung",
+        "SendResetEmail": "E-Mail zur Zurücksetzung senden"
+      },
+      "Errors": {
+        "default": "Wir können Ihre Anfrage im Moment nicht bearbeiten, bitte versuchen Sie es spÃ¤ter noch einmal.",
+        "forgot_error": "Wir können Ihre Anfrage auf ein neues Passwort derzeit nicht bearbeiten. Bitte versuchen Sie es später noch einmal.",
+        "invalid_token": "Ihre Rücksetzungsanfrage ist abgelaufen, bitte geben Sie Ihre E-Mail-Adresse erneut ein."
+      },
+      "Labels": {
+        "ForgotPassword": "Passwort vergessen"
+      },
+      "Text": {
+        "Confirmation": "E-Mail verschickt! Überprüfen Sie Ihren Posteingang.",
+        "Introduction": "Sie können sich nicht einloggen? Geben Sie unten Ihre E-Mail-Adresse ein und wir senden Ihnen eine E-Mail, um dies wieder in Ordnung zu bringen."
+      }
+    },
+    "ResetPassword": {
+      "Labels": {
+        "Change": "Ändern",
+        "Reset": "Zurücksetzen",
+        "Set": "Setze dein"
+      },
+      "Text": {
+        "ChangeIntroduction": "Bitte geben Sie ein neues Passwort ein.",
+        "ResetIntroduction": "Bitte geben Sie ein neues Passwort ein.",
+        "SetIntroduction": "Bitte geben Sie ein Passwort ein, um Ihre Registrierung abzuschließen."
+      }
+    }
+  },
+  "Plan": {
+    "Labels": {
+      "AddOns": "Zuschläge",
+      "Annual": "Jährlich",
+      "BillingCycle": "Abrechnungszeitraum",
+      "Monthly": "Monatlich",
+      "Name": "Name",
+      "NotApplicable": "Nicht möglich",
+      "PlanQuantity": "Plan-Menge",
+      "Price": "Preis",
+      "Quantity": "Menge",
+      "Setup": "Setup"
+    }
+  },
+  "PlanChangeSummary": {
+    "Labels": {
+      "Amount": "Betrag",
+      "ChangeSummary": "Änderungszusammenfassung",
+      "Description": "Beschreibung",
+      "Tax": "Steuer",
+      "Total": "Gesamt"
+    }
+  },
+  "PlanSelect": {
+    "Errors": {
+      "subscription_expired": "Ihr Abonnement ist abgelaufen, bitte wählen Sie einen neuen Abonnementplan, um fortzufahren.",
+      "subscription_planupgraderequired": "Sie müssen Ihren Abonnementplan aktualisieren."
+    },
+    "Labels": {
+      "ChangeOptions": "Optionen ändern",
+      "Current": "Aktuell",
+      "DayFreeTrial": " Tage Probezeit",
+      "Select": "Auswählen",
+      "SelectThisPlan": "Diesen Abonnementplan auswählen"
+    }
+  },
+  "PlanSelectOptions": {
+    "Actions": {
+      "ChangePlan": "Abonnementplan ändern"
+    },
+    "Errors": {
+      "subscription_quantityupgraderequired": "Sie müssen Ihre Plan-Menge erhöhen auf {{ NewQuantity }} {{ UnitOfMeasure }} oder höher."
+    },
+    "Labels": {
+      "Plan": "Abonnementplan"
+    }
+  },
+  "Registration": {
+    "Actions": {
+      "AddDiscountCode": "Rabatt-Code hinzufügen",
+      "ChangeOptions": "Optionen ändern",
+      "ChangePlan": "Abonnementplan ändern",
+      "GetStarted": "Los geht's",
+      "NextPayment": "Weiter: Zahlung",
+      "Register": "Registrieren"
+    },
+    "Labels": {
+      "Payment": "Zahlung",
+      "Plan": "Abonnementplan"
+    },
+    "Menu": {
+      "AccountInformation": "Kontoinformation",
+      "ChooseOptions": "Optionen auswählen",
+      "Payment": "Zahlung",
+      "SelectPlan": "Abonnementplan auswählen"
+    },
+    "Text": {
+      "AlmostDone": "Fast fertig!",
+      "CompletionMessage": "Sie haben sich registriert!",
+      "ConfirmationMessage": "Wir haben eine E-Mail geschickt an <strong>{{ Email }}</strong>.<br/>Bitte klicken Sie auf den Link in der E-Mail, um Ihre Registrierung abzuschließen.",
+      "ContactSupportMessage": "Bei Fragen kontaktieren Sie bitte <a href='mailto:{{ SupportEmail }}'>{{ SupportEmail }}</a>.",
+      "ConfirmationMessageAndLogin": "Ihr Konto wurde erstellt. Klicken Sie unten, um sich anzumelden.",
+      "ThankYou": "Vielen Dank!"
+    }
+  }
+}
